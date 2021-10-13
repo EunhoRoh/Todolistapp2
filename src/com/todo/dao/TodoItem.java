@@ -102,10 +102,10 @@ public class TodoItem {
     public String toString() {
     		return id+" "+ "[" + category+"] "+ title+" - " +desc+" - " +due_date+" - "+current_date;
     }
-    /*
+    
     public String toString_completed() {
     		return "[" + category+"] "+ title+"[V]"+" - " +desc+" - " +due_date+" - "+current_date;
-    }*/
+    }
     
     public String toSaveString() {
     	return category+ "##" +title + "##" + desc + "##" + due_date+ "##" +current_date + "\n";
